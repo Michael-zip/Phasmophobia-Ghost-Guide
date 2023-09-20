@@ -254,7 +254,7 @@
 ## Moroi 👻
 
 ### Hunting
-- **Speed**: Speed varies with player sanity. Fastest at low sanity.
+- **Speed**: Speed varies with player sanity. Fastest at low sanity. 3.7 meter per second if at 0% sanity.
 - **Sanity**: Hunts at 50% sanity.
 
 ### Strengths and Weaknesses
@@ -279,13 +279,23 @@
 
 ## Thaye 👻
 
+### Age Mechanics
+- **Aging**: Starts young and ages when near players, affecting its abilities and behavior.
+
 ### Hunting
-- **Speed**: Speed and hunting frequency vary with age.
-- **Sanity**: Hunts at 75% sanity when youngest, 15% when oldest.
+- **Young Age Sanity Threshold**: Initiates a hunt at 75% sanity.
+- **Old Age Sanity Threshold**: At its oldest, will only hunt at 15% sanity.
+- **Speed**: 2.7 meters per second at its youngest. 1 meter per second at oldest.
 
 ### Strengths and Weaknesses
-- **Strengths**: Changes age over time, affecting its speed and hunting frequency.
-- **Weaknesses**: Aging makes it more predictable.
+- **Young Age**: Behaves like a fast-moving Demon.
+- **Old Age**: Becomes a low-activity Shade.
+
+### Aging Process
+- **Initial Timer**: A 2-minute timer starts when you open the door to the location.
+- **Aging Event**: If a player is found nearby after the timer, the Thaye ages.
+- **Recheck**: If no player is found, sets a 30-second timer for another aging check.
 
 ### Interactions
-- **Visual Cues**: Use the Ouija Board to determine its age. Increased chance for Ghost Writing and D.O.T.S.
+- **Ouija Board**: Helpful for determining the Thaye's current age.
+- **Evidence**: Increased likelihood for Ghost Writing and Dots.
