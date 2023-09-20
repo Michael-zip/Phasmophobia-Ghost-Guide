@@ -1,6 +1,6 @@
-# <p style="font-size:36px;">Phasmophobia Ghost Guide</p>
+# Phasmophobia Ghost Guide 👻
 
-## <p style="font-size:28px;">General Ghost Mechanics</p>
+## General Ghost Mechanics
 
 ### Hunting
 - **Start Condition**: Initiates a hunt at 50% sanity or lower.
@@ -18,13 +18,13 @@
 ### Miscellaneous
 - **Common or Rare Labels**: Flavor text; no gameplay impact.
 
-## <p style="font-size:28px;">Spirit</p>
+## Spirit 👻
 ### Hunting
 - **No-Hunt Timer**: 180 seconds when using a Smudge Stick.
 ### Strengths and Weaknesses
 - **Weaknesses**: Highly susceptible to Smudge Sticks.
 
-## <p style="font-size:28px;">Wraith</p>
+## Wraith 👻
 ### Hunting
 - **Speed**: Accelerates when targeting.
 ### Strengths and Weaknesses
@@ -34,7 +34,7 @@
 - **Spirit Box**: Highly responsive.
 - **Post-Teleport Behavior**: Walks back to its favorite room.
 
-## <p style="font-size:28px;">Phantom</p>
+## Phantom 👻
 ### Hunting
 - **Speed**: Accelerates when targeting.
 - **Blink Rate**: Longer blink duration during hunts.
@@ -44,7 +44,7 @@
 ### Interactions
 - **Photographic Evidence**: Confirm by checking photo label for "Ghost."
 
-## <p style="font-size:28px;">Poltergeist</p>
+## Poltergeist 👻
 ### Hunting
 - **Object Throwing**: Throws multiple items rapidly.
 ### Strengths and Weaknesses
@@ -52,7 +52,7 @@
 ### Interactions
 - **Object Throwing**: 100% chance every 0.5 seconds.
 
-## <p style="font-size:28px;">Banshee</p>
+## Banshee 👻
 ### Hunting
 - **Target Selection**: Focuses on one target unless they leave the house.
 - **Speed**: Accelerates when targeting.
@@ -61,7 +61,8 @@
 ### Interactions
 - **Sound Behavior**: 30% chance to emit a scream via the Para Mic.
 
-## <p style="font-size:28px;">Jinn</p>
+## Jinn 👻
+
 ### Hunting
 - **Speed**: Normal speed; speeds up significantly when it sees its target and maintains line of sight.
 - **Sanity**: Hunts when player sanity drops to 50% or lower.
@@ -73,7 +74,8 @@
 ### Interactions
 - **Electrical Behavior**: Puts an EMF level 2 on the breaker when close to players.
 
-## <p style="font-size:28px;">Mare</p>
+## Mare 👻
+
 ### Hunting
 - **Light Sensitivity**: Hunts at 60% sanity in dark places and 40% in lit places. Not applicable in Nightmare mode.
 - **Speed**: Normal speed.
@@ -85,7 +87,8 @@
 ### Interactions
 - **Light Behavior**: Will try to roam away or switch rooms if lights are on in its current room. Instantly turns off light switches in its room.
 
-## <p style="font-size:28px;">Revenant</p>
+## Revenant 👻
+
 ### Hunting
 - **Speed**: Moves at 1.0 m/s when not targeting a player, and 3.0 m/s when chasing.
 - **Sanity**: No specific rules.
@@ -94,7 +97,8 @@
 - **Strengths**: Speed increases drastically when it spots a player. To evade, break line of sight and silence all equipment.
 - **Weaknesses**: Slower when not targeting a player.
 
-## <p style="font-size:28px;">Shade</p>
+## Shade 👻
+
 ### Hunting
 - **Speed**: Normal, but speeds up when targeting a player.
 - **Sanity**: Initiates hunts at an average team sanity of 35% or lower.
@@ -106,7 +110,8 @@
 ### Interactions
 - **Visual Cues**: High chance to appear as a shadow during ghost events. Use Ghost Writing as an easy evidence clue.
 
-## <p style="font-size:28px;">Demon</p>
+## Demon 👻
+
 ### Hunting
 - **Speed**: Normal.
 - **Sanity**: Can initiate hunts regardless of player sanity.
@@ -115,7 +120,8 @@
 - **Strengths**: Reduced cooldown between hunts. Crucifix radius must be larger to deter it (5m).
 - **Weaknesses**: Smudge sticks prevent it from hunting for 60 seconds.
 
-## <p style="font-size:28px;">Yurei</p>
+## Yurei 👻
+
 ### Hunting
 - **Speed**: Normal.
 - **Sanity**: Initiates hunts when player sanity falls to 50% or lower.
@@ -124,7 +130,8 @@
 - **Strengths**: Drops player sanity by 15% if nearby. Confined to its room for 90 seconds after being smudged.
 - **Weaknesses**: None specified.
 
-## <p style="font-size:28px;">Oni</p>
+## Oni 👻
+
 ### Hunting
 - **Speed**: Normal.
 - **Sanity**: No specific rules.
@@ -136,7 +143,8 @@
 ### Interactions
 - **Sanity Drop**: Drops player sanity by 20% during certain ghost events.
 
-## <p style="font-size:28px;">Yokai</p>
+## Yokai 👻
+
 ### Hunting
 - **Speed**: Normal.
 - **Sanity**: Initiates hunts if players talk nearby and have a sanity of 80% or lower.
@@ -148,7 +156,8 @@
 ### Interactions
 - **Audio Cues**: More vocal interactions result in increased activity.
 
-## <p style="font-size:28px;">Hantu</p>
+## Hantu 👻
+
 ### Hunting
 - **Speed**: Faster in cold areas, slower in warm areas. Cold areas include snowy conditions or if the breaker is off.
 - **Sanity**: No specific rules.
@@ -160,7 +169,8 @@
 ### Interactions
 - **Evidence**: Always provides Freezing Temperatures as evidence.
 
-## <p style="font-size:28px;">Goryo</p>
+## Goryo 👻
+
 ### Hunting
 - **Speed**: Normal.
 - **Sanity**: No specific rules.
@@ -172,7 +182,8 @@
 ### Interactions
 - **Evidence**: D.O.T.S. is fixed evidence.
 
-## <p style="font-size:28px;">Myling</p>
+## Myling 👻
+
 ### Hunting
 - **Speed**: Normal.
 - **Sanity**: No specific rules.
@@ -181,7 +192,8 @@
 - **Strengths**: Virtually silent during hunts; footsteps are only audible when it's close. Active on the Parabolic Microphone.
 - **Weaknesses**: Can be slightly heard before equipment malfunctions.
 
-## <p style="font-size:28px;">Onryo</p>
+## Onryo 👻
+
 ### Hunting
 - **Speed**: Normal.
 - **Sanity**: Can hunt at 60% sanity if no candles are blown out.
@@ -193,7 +205,8 @@
 ### Interactions
 - **Audio Cues**: Blown-out candles can indicate an impending hunt. Combine candles and crucifixes to confirm an Onryo.
 
-## <p style="font-size:28px;">The Twins</p>
+## The Twins 👻
+
 ### Hunting
 - **Speed**: Main ghost is slower; decoy is faster.
 - **Sanity**: No specific rules.
@@ -205,7 +218,8 @@
 ### Interactions
 - **Visual Cues**: Rapid spikes in activity can indicate their presence. Spirit Box and Freezing Temperatures are common evidence.
 
-## <p style="font-size:28px;">Raiju</p>
+## Raiju 👻
+
 ### Hunting
 - **Speed**: Faster near electrical items.
 - **Sanity**: No specific rules.
@@ -214,7 +228,8 @@
 - **Strengths**: Larger radius to disrupt equipment. Requires handheld, active electronics to be affected.
 - **Weaknesses**: Similar to Myling, but can be distinguished by its speed near electrical items.
 
-## <p style="font-size:28px;">Obake</p>
+## Obake 👻
+
 ### Hunting
 - **Speed**: Accelerates over time during hunts.
 - **Sanity**: No specific rules.
@@ -226,7 +241,8 @@
 ### Interactions
 - **Visual Cues**: 6.66% chance to shapeshift during blinks in a hunt. Fingerprints are fixed evidence.
 
-## <p style="font-size:28px;">The Mimic</p>
+## The Mimic 👻
+
 ### Hunting
 - **Speed**: Normal.
 - **Sanity**: No specific rules.
@@ -235,7 +251,8 @@
 - **Strengths**: Can mimic other ghosts and their abilities, except Goryo's D.O.T.S.
 - **Weaknesses**: Ghost orbs may falsely indicate its presence.
 
-## <p style="font-size:28px;">Moroi</p>
+## Moroi 👻
+
 ### Hunting
 - **Speed**: Speed varies with player sanity. Fastest at low sanity.
 - **Sanity**: Hunts at 50% sanity.
@@ -247,7 +264,8 @@
 ### Interactions
 - **Audio Cues**: Spirit Box is fixed evidence.
 
-## <p style="font-size:28px;">Deogen</p>
+## Deogen 👻
+
 ### Hunting
 - **Speed**: Very fast when far from players; extremely slow when close.
 - **Sanity**: Hunts at 40% sanity.
@@ -259,7 +277,8 @@
 ### Interactions
 - **Audio Cues**: 30% chance for special Spirit Box response when close to the ghost. Spirit Box is fixed evidence.
 
-## <p style="font-size:28px;">Thaye</p>
+## Thaye 👻
+
 ### Hunting
 - **Speed**: Speed and hunting frequency vary with age.
 - **Sanity**: Hunts at 75% sanity when youngest, 15% when oldest.
