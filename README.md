@@ -1,6 +1,6 @@
 # Phasmophobia Ghost Guide 👻
 
-## <span style="color:white">General Ghost Mechanics</span>
+## General Ghost Mechanics
 
 ### Hunting
 - **Start Condition**: Initiates a hunt at 50% sanity or lower.
@@ -18,13 +18,13 @@
 ### Miscellaneous
 - **Common or Rare Labels**: Flavor text; no gameplay impact.
 
-## <span style="color:white">Spirit 👻</span>
+## Spirit 👻
 ### Hunting
 - **No-Hunt Timer**: 180 seconds when using a Smudge Stick.
 ### Strengths and Weaknesses
 - **Weaknesses**: Highly susceptible to Smudge Sticks.
 
-## <span style="color:white">Wraith 👻</span>
+## Wraith 👻
 ### Hunting
 - **Speed**: Accelerates when targeting.
 ### Strengths and Weaknesses
@@ -34,7 +34,7 @@
 - **Spirit Box**: Highly responsive.
 - **Post-Teleport Behavior**: Walks back to its favorite room.
 
-## <span style="color:white">Phantom 👻</span>
+## Phantom 👻
 ### Hunting
 - **Speed**: Accelerates when targeting.
 - **Blink Rate**: Longer blink duration during hunts.
@@ -44,7 +44,7 @@
 ### Interactions
 - **Photographic Evidence**: Confirm by checking photo label for "Ghost."
 
-## <span style="color:white">Poltergeist 👻</span>
+## Poltergeist 👻
 ### Hunting
 - **Object Throwing**: Throws multiple items rapidly.
 ### Strengths and Weaknesses
@@ -52,7 +52,7 @@
 ### Interactions
 - **Object Throwing**: 100% chance every 0.5 seconds.
 
-## <span style="color:white">Banshee 👻</span>
+## Banshee 👻
 ### Hunting
 - **Target Selection**: Focuses on one target unless they leave the house.
 - **Speed**: Accelerates when targeting.
@@ -61,7 +61,7 @@
 ### Interactions
 - **Sound Behavior**: 30% chance to emit a scream via the Para Mic.
 
-## <span style="color:white">Jinn 👻</span>
+## Jinn 👻
 
 ### Hunting
 - **Speed**: Normal speed; speeds up significantly when it sees its target and maintains line of sight.
@@ -74,7 +74,7 @@
 ### Interactions
 - **Electrical Behavior**: Puts an EMF level 2 on the breaker when close to players.
 
-## <span style="color:white">Mare 👻</span>
+## Mare 👻
 
 ### Hunting
 - **Light Sensitivity**: Hunts at 60% sanity in dark places and 40% in lit places. Not applicable in Nightmare mode.
@@ -87,7 +87,7 @@
 ### Interactions
 - **Light Behavior**: Will try to roam away or switch rooms if lights are on in its current room. Instantly turns off light switches in its room.
 
-## <span style="color:white">Revenant 👻</span>
+## Revenant 👻
 
 ### Hunting
 - **Speed**: Moves at 1.0 m/s when not targeting a player, and 3.0 m/s when chasing.
@@ -97,7 +97,7 @@
 - **Strengths**: Speed increases drastically when it spots a player. To evade, break line of sight and silence all equipment.
 - **Weaknesses**: Slower when not targeting a player.
 
-## <span style="color:white">Shade 👻</span>
+## Shade 👻
 
 ### Hunting
 - **Speed**: Normal, but speeds up when targeting a player.
@@ -110,7 +110,7 @@
 ### Interactions
 - **Visual Cues**: High chance to appear as a shadow during ghost events. Use Ghost Writing as an easy evidence clue.
 
-## <span style="color:white">Demon 👻</span>
+## Demon 👻
 
 ### Hunting
 - **Speed**: Normal.
@@ -120,7 +120,7 @@
 - **Strengths**: Reduced cooldown between hunts. Crucifix radius must be larger to deter it (5m).
 - **Weaknesses**: Smudge sticks prevent it from hunting for 60 seconds.
 
-## <span style="color:white">Yurei 👻</span>
+## Yurei 👻
 
 ### Hunting
 - **Speed**: Normal.
@@ -130,7 +130,7 @@
 - **Strengths**: Drops player sanity by 15% if nearby. Confined to its room for 90 seconds after being smudged.
 - **Weaknesses**: None specified.
 
-## <span style="color:white">Oni 👻</span>
+## Oni 👻
 
 ### Hunting
 - **Speed**: Normal.
@@ -143,7 +143,7 @@
 ### Interactions
 - **Sanity Drop**: Drops player sanity by 20% during certain ghost events.
 
-## <span style="color:white">Yokai 👻</span>
+## Yokai 👻
 
 ### Hunting
 - **Speed**: Normal.
@@ -156,7 +156,7 @@
 ### Interactions
 - **Audio Cues**: More vocal interactions result in increased activity.
 
-## <span style="color:white">Hantu 👻</span>
+## Hantu 👻
 
 ### Hunting
 - **Speed**: Faster in cold areas, slower in warm areas. Cold areas include snowy conditions or if the breaker is off.
@@ -169,7 +169,7 @@
 ### Interactions
 - **Evidence**: Always provides Freezing Temperatures as evidence.
 
-## <span style="color:white">Goryo 👻</span>
+## Goryo 👻
 
 ### Hunting
 - **Speed**: Normal.
@@ -182,7 +182,7 @@
 ### Interactions
 - **Evidence**: D.O.T.S. is fixed evidence.
 
-## <span style="color:white">Myling 👻</span>
+## Myling 👻
 
 ### Hunting
 - **Speed**: Normal.
@@ -192,7 +192,7 @@
 - **Strengths**: Virtually silent during hunts; footsteps are only audible when it's close. Active on the Parabolic Microphone.
 - **Weaknesses**: Can be slightly heard before equipment malfunctions.
 
-## <span style="color:white">Onryo 👻</span>
+## Onryo 👻
 
 ### Hunting
 - **Speed**: Normal.
@@ -205,7 +205,7 @@
 ### Interactions
 - **Audio Cues**: Blown-out candles can indicate an impending hunt. Combine candles and crucifixes to confirm an Onryo.
 
-## <span style="color:white">The Twins 👻</span>
+## The Twins 👻
 
 ### Hunting
 - **Speed**: Main ghost is slower; decoy is faster.
@@ -218,7 +218,7 @@
 ### Interactions
 - **Visual Cues**: Rapid spikes in activity can indicate their presence. Spirit Box and Freezing Temperatures are common evidence.
 
-## <span style="color:white">Raiju 👻</span>
+## Raiju 👻
 
 ### Hunting
 - **Speed**: Faster near electrical items.
@@ -228,7 +228,7 @@
 - **Strengths**: Larger radius to disrupt equipment. Requires handheld, active electronics to be affected.
 - **Weaknesses**: Similar to Myling, but can be distinguished by its speed near electrical items.
 
-## <span style="color:white">Obake 👻</span>
+## Obake 👻
 
 ### Hunting
 - **Speed**: Accelerates over time during hunts.
@@ -241,7 +241,7 @@
 ### Interactions
 - **Visual Cues**: 6.66% chance to shapeshift during blinks in a hunt. Fingerprints are fixed evidence.
 
-## <span style="color:white">The Mimic 👻</span>
+## The Mimic 👻
 
 ### Hunting
 - **Speed**: Normal.
@@ -251,7 +251,7 @@
 - **Strengths**: Can mimic other ghosts and their abilities, except Goryo's D.O.T.S.
 - **Weaknesses**: Ghost orbs may falsely indicate its presence.
 
-## <span style="color:white">Moroi 👻</span>
+## Moroi 👻
 
 ### Hunting
 - **Speed**: Speed varies with player sanity. Fastest at low sanity.
@@ -264,7 +264,7 @@
 ### Interactions
 - **Audio Cues**: Spirit Box is fixed evidence.
 
-## <span style="color:white">Deogen 👻</span>
+## Deogen 👻
 
 ### Hunting
 - **Speed**: Very fast when far from players; extremely slow when close.
@@ -277,7 +277,7 @@
 ### Interactions
 - **Audio Cues**: 30% chance for special Spirit Box response when close to the ghost. Spirit Box is fixed evidence.
 
-## <span style="color:white">Thaye 👻</span>
+## Thaye 👻
 
 ### Hunting
 - **Speed**: Speed and hunting frequency vary with age.
