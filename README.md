@@ -1,5 +1,3 @@
-# Phasmophobia Ghost Guide 👻
-
 ## General Ghost Mechanics
 
 ### Hunting
