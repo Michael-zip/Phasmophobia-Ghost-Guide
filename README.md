@@ -175,7 +175,7 @@
 - **Sanity**: No specific rules.
 
 ### Strengths and Weaknesses
-- **Strengths**: Highly active, performs more events than any other ghost type. Extremely fast blinking (0.1-0.5 seconds).
+- **Strengths**: Highly active, performs more events than any other ghost type. Extremely fast blinking (0.1-0.5 seconds) Basically is visible all the time due to its blinking.
 - **Weaknesses**: Cannot perform "air ball" ghost events.
 
 ### Interactions
