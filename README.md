@@ -3,13 +3,15 @@
 ## General Ghost Mechanics
 
 ### Hunting
+- **Speed**: Most ghosts are of <u>Normal</u> speed and will slightly speed up when a player is in their line of sight. 
 - **Start Condition**: Initiates a hunt at 50% sanity or lower.
 - **Cooldown**: 25-second cooldown between hunts.
-- **Smudge Stick Safety**: 6 seconds of immunity during a hunt.
+- **Smudge Stick Safety**: 6 seconds of immunity during a hunt. Then after the hunt is over the <u>No-Hunt Timer</u> will start.
 - **No-Hunt Timer**: 90 seconds where ghosts can't hunt after lighting a Smudge Stick.
 
 ### Interactions
 - **Object Throwing**: 50% chance to throw an item every 0.5 seconds.
+- **EMF-2**: Most of the time this is an indication of a hidden ability
 
 ### Electrical
 - **Breaker Off**: Restore lights by flipping the breaker back on.
@@ -17,75 +19,112 @@
 
 ### Miscellaneous
 - **Common or Rare Labels**: Flavor text; no gameplay impact.
+- **Hidden Abilities**: Hidden Abilities will be marked with a `[H]`
+- **Speed Information**:
+    + **Slow**: `1.4 m/s` *or lower*
+    + **Normal**: `1.6 m/s`
+    + **Fast**: `2.5 m/s`
+    + **Very Fast**: `2.7 m/s`
+    + **Extremely Fast**: `3 m/s` *Only Revenant, Deogen, Moroi*
+    ---
+    + **Players Walk Speed**: `1.6 m/s` 
+    + **Players Sprint Speed**: `3 m/s`
 
 ## Spirit 👻
+
 ### Hunting
-- **No-Hunt Timer**: 180 seconds when using a Smudge Stick.
+- **Speed**: Normal (`1.6 m/s`)
+- **No-Hunt Timer**: Extended to 180 seconds (3 minutes) when using a Smudge Stick.
+
 ### Strengths and Weaknesses
-- **Weaknesses**: Highly susceptible to Smudge Sticks.
+- **Weaknesses**: Extremely vulnerable to Smudge Sticks; using one extends the No-Hunt Timer to 3 minutes.
+
 
 ## Wraith 👻
+
 ### Hunting
-- **Speed**: Accelerates when targeting.
+- **Speed**: Normal (`1.6 m/s`)
+- **Behavior**: Cannot teleport during hunts.
+
 ### Strengths and Weaknesses
-- **Strengths**: Teleports near players, leaves EMF at teleport point.
-- **Weaknesses**: Rarely touches ground; can be detected with Salt and Motion Sensors.
+- **Strengths**: Teleports to/near players and leaves an EMF reading at the teleport point. `[H]`
+- **Weaknesses**: Rarely touches the ground, making it immune to Salt. Use Motion Sensors above Salt for easy detection.
+
 ### Interactions
 - **Spirit Box**: Highly responsive.
-- **Post-Teleport Behavior**: Walks back to its favorite room.
+- **Post-Teleport Behavior**: Returns to its preferred room after teleporting.
+
 
 ## Phantom 👻
+
 ### Hunting
-- **Speed**: Accelerates when targeting.
-- **Blink Rate**: Longer blink duration during hunts.
+- **Speed**: Normal (`1.6 m/s`)
+- **Blink Rate**: Exhibits extended periods of invisibility during hunts, making it especially difficult to see. When it does appear, it's for a much shorter duration than other ghosts. `[H]`
+
 ### Strengths and Weaknesses
-- **Strengths**: Sets a path to a player and leaves EMF level 2 at the start.
-- **Weaknesses**: Disappears when photographed during a ghost event.
+- **Strengths**: Sets a path to a player and leaves an EMF level 2 reading at the start of its path.
+- **Weaknesses**: Disappears when photographed during ghost events and potentially hunts as well.
+
 ### Interactions
-- **Photographic Evidence**: Confirm by checking photo label for "Ghost."
+- **Photographic Evidence**: If a photo label reads "Ghost," the Phantom will not be visible in the photograph.
+
 
 ## Poltergeist 👻
+
 ### Hunting
-- **Object Throwing**: Throws multiple items rapidly.
+- **Speed**: Normal (`1.6 m/s`)
+- **Object Throwing**: Capable of rapidly throwing multiple objects simultaneously during hunts.
+
 ### Strengths and Weaknesses
-- **Strengths**: Throws items with force and reduces sanity by 2% per item.
+- **Strengths**: Throws objects with extreme force and reduces player sanity by 2% for each object thrown. `[H]`
+
 ### Interactions
-- **Object Throwing**: 100% chance every 0.5 seconds.
+- **Object Throwing**: Guarantees object throwing every 0.5 seconds if objects are nearby, making it highly active in cluttered environments.
+
 
 ## Banshee 👻
+
 ### Hunting
-- **Target Selection**: Focuses on one target unless they leave the house.
-- **Speed**: Accelerates when targeting.
+- **Speed**: Normal (`1.6 m/s`)
+- **Target Selection**: As soon as the house door is unlocked, the Banshee selects a single player as its primary target. This target remains fixed unless the player either dies or leaves the game. If the chosen target steps outside the house, the Banshee will temporarily switch its focus to another player until the initial target re-enters the house.
+- **Sanity**: Hunts are initiated only based on the sanity level of the chosen target, beginning when it drops to 50% or lower.
+
 ### Strengths and Weaknesses
-- **Strengths**: Reduces player's sanity by 15% during specific events.
+- **Strengths**: Drains 15% of the player's sanity during specific events.
+- **Weaknesses**: Frequently engages in singing events, which makes it easier to identify. Note: This does not apply during hunts.
+
 ### Interactions
-- **Sound Behavior**: 30% chance to emit a scream via the Para Mic.
+- **Sound Behavior**: 30% chance to emit a scream detectable via the Para Mic.
+- **Roaming**: Actively roams towards its chosen target, making it more predictable in its movements.
+
 
 ## Jinn 👻
 
 ### Hunting
-- **Speed**: Normal speed; speeds up significantly when it sees its target and maintains line of sight.
-- **Sanity**: Hunts when player sanity drops to 50% or lower.
+- **Speed**: Moves at a normal speed of `1.6 m/s` when out of line of sight, but will return to normal speeds when close to a player. When the Jinn spots its target, the speed accelerates to `2.5 m/s` when the Jinn sees its target and maintains line of sight.
 
 ### Strengths and Weaknesses
-- **Strengths**: Drops player's sanity by 2% when close. Will not turn off the breaker but might overload it by turning on lights.
-- **Weaknesses**: Abilities are ineffective if the breaker is off.
+- **Strengths**: Lowers player sanity by 2% when close. Cannot turn off the breaker but can overload it by activating multiple lights, causing the breaker to trip.
+- **Weaknesses**: Loses effectiveness if the electrical breaker is off.
 
 ### Interactions
-- **Electrical Behavior**: Puts an EMF level 2 on the breaker when close to players.
+- **Electrical Behavior**: Produces an EMF level 2 reading near the breaker when in proximity to players.
+- **Breaker Interaction**: The Jinn will not manually turn off the breaker. However, it can cause it to trip by turning on lights throughout the house. You can distinguish this from a manually turned-off breaker by checking the position of the light switches. If they are in the 'off' position, the breaker was tripped, potentially indicating a Jinn.
+
 
 ## Mare 👻
 
 ### Hunting
-- **Light Sensitivity**: Hunts at 60% sanity in dark places and 40% in lit places. Not applicable in Nightmare mode.
-- **Speed**: Normal speed.
+- **Speed**: Normal (`1.6 m/s`).
+- **Light Sensitivity**: Initiates a hunt at 60% player sanity in dark areas and 40% in lit areas. Inapplicable in Nightmare mode.
 
 ### Strengths and Weaknesses
-- **Strengths**: Breaks lights more frequently during ghost events. Becomes less active in well-lit rooms.
-- **Weaknesses**: Cannot turn on light switches, keyboards, or TVs (but can turn on cars).
+- **Strengths**: Has a higher chance of breaking lights during ghost events. Less active when the area is well-lit.
+- **Weaknesses**: Cannot operate light switches, keyboards, or TVs, but can turn on cars.
 
 ### Interactions
-- **Light Behavior**: Will try to roam away or switch rooms if lights are on in its current room. Instantly turns off light switches in its room.
+- **Light Behavior**: Will move to a different room or reduce activity if lights are turned on in its current location. Instantly deactivates light switches in its vicinity.
+
 
 ## Revenant 👻
 
