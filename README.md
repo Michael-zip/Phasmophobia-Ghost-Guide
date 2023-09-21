@@ -217,7 +217,7 @@
 
 ### Strengths and Weaknesses
 - **Strengths**: Cannot change ghost room. Visible only through D.O.T.S. and only from a video camera.
-- **Weaknesses**: Limited to its ghost room and won't roam far.
+- **Weaknesses**: Limited to its ghost room and won't roam very far, might still roam a bit.
 
 ### Interactions
 - **Evidence**: D.O.T.S. is fixed evidence.
