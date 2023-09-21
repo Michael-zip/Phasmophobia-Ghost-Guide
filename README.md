@@ -8,6 +8,7 @@
 - **Cooldown**: 25-second cooldown between hunts.
 - **Smudge Stick Safety**: 6 seconds of immunity during a hunt. Then after the hunt is over the <u>No-Hunt Timer</u> will start.
 - **No-Hunt Timer**: 90 seconds where ghosts can't hunt after lighting a Smudge Stick.
+- **Lights**: All lights go out at end of hunts.
 
 ### Interactions
 - **Object Throwing**: 50% chance to throw an item every 0.5 seconds.
@@ -139,7 +140,7 @@
 ## Shade 👻
 
 ### Hunting
-- **Speed**: Normal, but speeds up when targeting a player.
+- **Speed**: Normal (`1.6 m/s`)
 - **Sanity**: Initiates hunts at an average team sanity of 35% or lower.
 
 ### Strengths and Weaknesses
@@ -152,7 +153,7 @@
 ## Demon 👻
 
 ### Hunting
-- **Speed**: Normal.
+- **Speed**: Normal (`1.6 m/s`)
 - **Sanity**: Can initiate hunts regardless of player sanity.
 
 ### Strengths and Weaknesses
@@ -162,7 +163,7 @@
 ## Yurei 👻
 
 ### Hunting
-- **Speed**: Normal.
+- **Speed**: Normal (`1.6 m/s`)
 - **Sanity**: Initiates hunts when player sanity falls to 50% or lower.
 
 ### Strengths and Weaknesses
@@ -172,7 +173,7 @@
 ## Oni 👻
 
 ### Hunting
-- **Speed**: Normal.
+- **Speed**: Normal (`1.6 m/s`)
 - **Sanity**: No specific rules.
 
 ### Strengths and Weaknesses
@@ -185,7 +186,7 @@
 ## Yokai 👻
 
 ### Hunting
-- **Speed**: Normal.
+- **Speed**: Normal (`1.6 m/s`)
 - **Sanity**: Initiates hunts if players talk nearby and have a sanity of 80% or lower.
 
 ### Strengths and Weaknesses
@@ -211,11 +212,11 @@
 ## Goryo 👻
 
 ### Hunting
-- **Speed**: Normal.
+- **Speed**: Normal (`1.6 m/s`)
 - **Sanity**: No specific rules.
 
 ### Strengths and Weaknesses
-- **Strengths**: Cannot change ghost room. Visible only through D.O.T.S. and only from a video camera this doesnt not count for hunts. If you see a ghost event you can rule out Goryo. Its footsteps are quite sometimes?
+- **Strengths**: Cannot change ghost room. Visible only through D.O.T.S. and only from a video camera.
 - **Weaknesses**: Limited to its ghost room and won't roam far.
 
 ### Interactions
@@ -224,7 +225,7 @@
 ## Myling 👻
 
 ### Hunting
-- **Speed**: Normal.
+- **Speed**: Normal (`1.6 m/s`)
 - **Sanity**: No specific rules.
 
 ### Strengths and Weaknesses
@@ -234,7 +235,7 @@
 ## Onryo 👻
 
 ### Hunting
-- **Speed**: Normal.
+- **Speed**: Normal (`1.6 m/s`)
 - **Sanity**: Can hunt at 60% sanity if no candles are blown out.
 
 ### Strengths and Weaknesses
@@ -260,7 +261,7 @@
 ## Raiju 👻
 
 ### Hunting
-- **Speed**: Faster near electrical items.
+- **Speed**: Normal (`1.6 m/s`), **Fast**: `2.5 m/s` near electrical items.
 - **Sanity**: No specific rules.
 
 ### Strengths and Weaknesses
@@ -270,7 +271,7 @@
 ## Obake 👻
 
 ### Hunting
-- **Speed**: Accelerates over time during hunts.
+- **Speed**: Normal (`1.6 m/s`)
 - **Sanity**: No specific rules.
 
 ### Strengths and Weaknesses
@@ -283,7 +284,7 @@
 ## The Mimic 👻
 
 ### Hunting
-- **Speed**: Normal.
+- **Speed**: Normal (`1.6 m/s`)
 - **Sanity**: No specific rules.
 
 ### Strengths and Weaknesses
@@ -293,7 +294,7 @@
 ## Moroi 👻
 
 ### Hunting
-- **Speed**: Speed varies with player sanity. Fastest at low sanity. 3.7 meter per second if at 0% sanity.
+- **Speed**: Speed varies with player sanity. Fastest at low sanity. `3.7 m/s` if at 0% sanity.
 - **Sanity**: Hunts at 50% sanity.
 
 ### Strengths and Weaknesses
@@ -322,9 +323,9 @@
 - **Aging**: Starts young and ages when near players, affecting its abilities and behavior.
 
 ### Hunting
+- **Speed**: `2.7 m/s` at its youngest. `1 m/s` at oldest.
 - **Young Age Sanity Threshold**: Initiates a hunt at 75% sanity.
 - **Old Age Sanity Threshold**: At its oldest, will only hunt at 15% sanity.
-- **Speed**: 2.7 meters per second at its youngest. 1 meter per second at oldest.
 
 ### Strengths and Weaknesses
 - **Young Age**: Behaves like a fast-moving Demon.
