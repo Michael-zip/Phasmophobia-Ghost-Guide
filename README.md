@@ -24,8 +24,8 @@
 - **Speed Information**:
     + **Slow**: `1.4 m/s` *or lower*
     + **Normal**: `1.6 m/s`
-    + **Fast**: `2.5 m/s`
-    + **Very Fast**: `2.7 m/s`
+    + **Fast**: `2.5 m/s` *Jinn, Raiju*
+    + **Very Fast**: `2.7 m/s` *Thaye, Hantu*
     + **Extremely Fast**: `3 m/s` *Only Revenant, Deogen, Moroi*
     ---
     + **Players Walk Speed**: `1.6 m/s` 
@@ -307,7 +307,7 @@
 ## Deogen 👻
 
 ### Hunting
-- **Speed**: Very fast when far from players; extremely slow when close.
+- **Speed**: `3 m/s` Very fast when far from players; extremely slow `1 m/s` when close to a player.
 - **Sanity**: Hunts at 40% sanity.
 
 ### Strengths and Weaknesses
