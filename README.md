@@ -6,7 +6,7 @@
 - **Speed**: Most ghosts are of <u>Normal</u> speed and will slightly speed up when a player is in their line of sight. 
 - **Start Condition**: Initiates a hunt at 50% sanity or lower.
 - **Cooldown**: 25-second cooldown between hunts.
-- **Smudge Stick Safety**: 6 seconds of immunity during a hunt. Then after the hunt is over the <u>No-Hunt Timer</u> will start.
+- **Smudge Stick Safety**: 5 seconds of immunity during a hunt. Then after the hunt is over the <u>No-Hunt Timer</u> will start.
 - **No-Hunt Timer**: 90 seconds where ghosts can't hunt after lighting a Smudge Stick.
 - **Lights**: All lights go out at end of hunts.
 
@@ -19,7 +19,7 @@
 - **Breaker Overload**: Overloading turns off all lights.
 
 ### Miscellaneous
-- **Common or Rare Labels**: Flavor text; no gameplay impact.
+- **Models & Stance**: Some ghost will be able to change their stance going from crawling, walking, broken-back, but only the **`Obake`** can change models.
 - **Hidden Abilities**: Hidden Abilities will be marked with a `[H]`
 - **Speed Information**:
     + **Slow**: `1.4 m/s` *or lower*
@@ -88,15 +88,15 @@
 ### Hunting
 - **Speed**: Normal (`1.6 m/s`)
 - **Target Selection**: As soon as the house door is unlocked, the Banshee selects a single player as its primary target. This target remains fixed unless the player either dies or leaves the game. If the chosen target steps outside the house, the Banshee will temporarily switch its focus to another player until the initial target re-enters the house.
-- **Sanity**: Hunts are initiated only based on the sanity level of the chosen target, beginning when it drops to 50% or lower.
+- **Sanity**: Hunts triggered by the sanity level of the chosen target, starting at 50% or lower.
 
 ### Strengths and Weaknesses
-- **Strengths**: Drains 15% of the player's sanity during specific events.
-- **Weaknesses**: Frequently engages in singing events, which makes it easier to identify. Note: This does not apply during hunts.
+- **Strengths**: Drains 15% sanity from the player during specific events.
+- **Weaknesses**: Often sings, making it easier to identify (not during hunts).
 
 ### Interactions
-- **Sound Behavior**: 30% chance to emit a scream detectable via the Para Mic.
-- **Roaming**: Actively roams towards its chosen target, making it more predictable in its movements.
+- **Sound Behavior**: 30% chance to scream, detectable via Para Mic.
+- **Roaming**: Roams toward its chosen target only if they are on the same floor. This avoids unnecessary travel on large maps.
 
 
 ## Jinn 👻
@@ -121,7 +121,7 @@
 
 ### Strengths and Weaknesses
 - **Strengths**: Has a higher chance of breaking lights during ghost events. Less active when the area is well-lit.
-- **Weaknesses**: Cannot operate light switches, keyboards, or TVs, but can turn on cars.
+- **Weaknesses**: Cannot operate light switches, but can operate everything else.
 
 ### Interactions
 - **Light Behavior**: Will move to a different room or reduce activity if lights are turned on in its current location. Instantly deactivates light switches in its vicinity.
@@ -130,7 +130,7 @@
 ## Revenant 👻
 
 ### Hunting
-- **Speed**: Moves at 1.0 m/s when not targeting a player, and 3.0 m/s when chasing.
+- **Speed**: Moves at `1.0 m/s` when not targeting a player, and `3.0 m/s` when chasing a player or moving towards players last known location.
 - **Sanity**: No specific rules.
 
 ### Strengths and Weaknesses
@@ -154,11 +154,11 @@
 
 ### Hunting
 - **Speed**: Normal (`1.6 m/s`)
-- **Sanity**: Can initiate hunts regardless of player sanity.
+- **Sanity**: Can hunt regardless of player sanity levels.
 
 ### Strengths and Weaknesses
-- **Strengths**: Reduced cooldown between hunts. Crucifix radius must be larger to deter it (5m).
-- **Weaknesses**: Smudge sticks prevent it from hunting for 60 seconds.
+- **Strengths**: Reduced cooldown between hunts. Crucifix effectiveness varies: T1 is `4.5m`, T2 is `6m`, T3 is `7.5m`.
+- **Weaknesses**: Smudge sticks provide a 60-second no-hunt window.
 
 ## Yurei 👻
 
@@ -199,7 +199,7 @@
 ## Hantu 👻
 
 ### Hunting
-- **Speed**: Faster in cold areas, slower in warm areas. Cold areas include snowy conditions or if the breaker is off.
+- **Speed**: Very Fast (`2.7 m/s`) in cold areas, slower (`1.4 m/s`) in warm areas. Cold areas include snowy conditions or if the breaker is off.
 - **Sanity**: No specific rules.
 
 ### Strengths and Weaknesses
@@ -248,7 +248,7 @@
 ## The Twins 👻
 
 ### Hunting
-- **Speed**: Main ghost is slower; decoy is faster.
+- **Speed**: Main ghost is `1.76 m/s` (10% faster), Decoy is `1.44 m/s` (10% slower).
 - **Sanity**: No specific rules.
 
 ### Strengths and Weaknesses
@@ -289,20 +289,21 @@
 
 ### Strengths and Weaknesses
 - **Strengths**: Can mimic other ghosts and their abilities, except Goryo's D.O.T.S.
-- **Weaknesses**: Ghost orbs may falsely indicate its presence.
+- **Weaknesses**: Ghost orbs may indicate its presence. The Mimics Ghost orbs **`DO NOT`** move with The Mimic they will work the same way as normal ghost orbs and simply stay in the ghost room. This means you can possibly get 4 evidence from this ghost because of their Ghost Orb ability.
 
 ## Moroi 👻
 
 ### Hunting
-- **Speed**: Speed varies with player sanity. Fastest at low sanity. `3.7 m/s` if at 0% sanity.
-- **Sanity**: Hunts at 50% sanity.
+- **Speed**: Varies with player sanity, up to `2.5 m/s`. Max speed of `3.7 m/s` at 0% sanity.
+- **Sanity**: Initiates hunts at 50% sanity.
 
 ### Strengths and Weaknesses
-- **Strengths**: Drains sanity at an increased rate when interacting via Spirit Box or Parabolic Mic. Cursed players need to consume sanity pills.
-- **Weaknesses**: Sensitive to smudge sticks, providing 12 seconds of safety.
+- **Strengths**: Drains extra sanity when using Spirit Box or Parabolic Mic. Cursed players must take sanity pills.
+- **Weaknesses**: Smudge sticks grant 7.5 seconds of safety.
 
 ### Interactions
-- **Audio Cues**: Spirit Box is fixed evidence.
+- **Audio Cues**: Spirit Box is a fixed evidence type.
+
 
 ## Deogen 👻
 
@@ -320,7 +321,7 @@
 ## Thaye 👻
 
 ### Age Mechanics
-- **Aging**: Starts young and ages when near players, affecting its abilities and behavior.
+- **Aging**: Starts young and ages when near players, affecting its abilities and behavior. (Dont think the model changes with age?)
 
 ### Hunting
 - **Speed**: `2.7 m/s` at its youngest. `1 m/s` at oldest.
@@ -332,7 +333,7 @@
 - **Old Age**: Becomes a low-activity Shade.
 
 ### Aging Process
-- **Initial Timer**: A 2-minute timer starts when you open the door to the location.
+- **Initial Timer**: A 2-minute timer starts when you unlock the entrance of the map.
 - **Aging Event**: If a player is found nearby after the timer, the Thaye ages.
 - **Recheck**: If no player is found, sets a 30-second timer for another aging check.
 
