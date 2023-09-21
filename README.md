@@ -215,7 +215,7 @@
 - **Sanity**: No specific rules.
 
 ### Strengths and Weaknesses
-- **Strengths**: Cannot change ghost room. Visible only through D.O.T.S. and only from a video camera.
+- **Strengths**: Cannot change ghost room. Visible only through D.O.T.S. and only from a video camera this doesnt not count for hunts. If you see a ghost event you can rule out Goryo. Its footsteps are quite sometimes?
 - **Weaknesses**: Limited to its ghost room and won't roam far.
 
 ### Interactions
