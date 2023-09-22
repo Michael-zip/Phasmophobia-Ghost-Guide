@@ -100,7 +100,7 @@
 ## Jinn 👻
 
 ### Hunting
-- **Speed**: Moves at a normal speed of `1.6 m/s` when out of line of sight, but will return to normal speeds when close to a player. When the Jinn spots its target, the speed accelerates to `2.5 m/s` when the Jinn sees its target and maintains line of sight.
+- **Speed**: Moves at a normal speed of `1.6 m/s` when out of line of sight, but will return to normal speeds `1.6 m/s` when close to a player. When the Jinn spots its target, the speed accelerates to `2.5 m/s` when the Jinn sees its target and maintains line of sight.
 
 ### Strengths and Weaknesses
 - **Strengths**: Lowers player sanity by 2% when close. Cannot turn off the breaker but can overload it by activating multiple lights, causing the breaker to trip.
