@@ -263,7 +263,7 @@
 - **Sanity**: No specific rules.
 
 ### Strengths and Weaknesses
-- **Strengths**: Larger radius to disrupt equipment. Requires handheld, active electronics to be affected.
+- **Strengths**: Larger radius to disrupt equipment. Requires active electronics to be affected which means handheld or mounted equiptment.
 - **Weaknesses**: Similar to Myling, but can be distinguished by its speed near electrical items.
 
 ## Obake 👻
