@@ -281,13 +281,35 @@
 
 ## The Mimic 👻
 
+### General Overview
+- **Evidence**: Fingerprints, Spirit Box, Freezing Temperature, and Ghost Orbs (extra)
+- **Special Behavior**: Mimics other ghost types periodically.
+- **Identification Clue**: Unique in showing Ghost Orbs in addition to its primary three pieces of evidence.
+
 ### Hunting
-- **Speed**: Normal (`1.6 m/s`)
-- **Sanity**: No specific rules.
+- **Speed**: Normal (`1.6 m/s`) or depends on the ghost it is mimicing.
+- **Sanity Trigger**: Initiates hunts at 50% sanity or lower, following general ghost mechanics, or depends on the ghost it is mimicing.
 
 ### Strengths and Weaknesses
-- **Strengths**: Can mimic other ghosts and their abilities, except Goryo's D.O.T.S. The Mimic can also mimic other different ghosts during different hunts. One hunt it could be a Jinn or a Deogen, it seems to randomly have a chance to change ghost type before a hunt starts.
-- **Weaknesses**: Ghost orbs may indicate its presence. The Mimics Ghost orbs **`DO NOT`** move with The Mimic they will work the same way as normal ghost orbs and simply stay in the ghost room. This means you can possibly get 4 evidence from this ghost because of their Ghost Orb ability.
+- **Strengths**: 
+  - **Adaptability**: Can imitate any ghost type, inheriting their characteristics like hunt thresholds and special abilities.
+  - **Elusiveness**: Its mimicking ability can mislead players.
+
+- **Weaknesses**: 
+  - **Static Evidence**: Unlike other evidence, its unique Ghost Orbs remain stationary in the ghost room.
+  
+### Special Abilities
+- **Mimic Timer**: Changes which ghost it imitates every 30 seconds to 2 minutes. Cannot change during hunts.
+- **Mimic Limitations**: Cannot imitate certain traits of Goryo and Thaye. Becomes a "default" ghost when mimicking itself or the player.
+
+### Additional Information
+- **Identification Strategy**: If you see three pieces of evidence plus Ghost Orbs, suspect a Mimic and confirm with other primary evidence.
+- **Nightmare Mode**: Will also show Ghost Orbs, even with reduced evidence.
+
+### Important Notes
+- **Static Behavior**: The Mimic cannot change its behavior mid-hunt.
+- **Multiple Evidence**: On Professional difficulty and below, it can show up to 4 pieces of evidence.
+
 
 ## Moroi 👻
 
