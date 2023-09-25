@@ -286,7 +286,7 @@
 - **Sanity**: No specific rules.
 
 ### Strengths and Weaknesses
-- **Strengths**: Can mimic other ghosts and their abilities, except Goryo's D.O.T.S.
+- **Strengths**: Can mimic other ghosts and their abilities, except Goryo's D.O.T.S. The Mimic can also mimic other different ghosts during different hunts. One hunt it could be a Jinn or a Deogen, it seems to randomly have a chance to change ghost type before a hunt starts.
 - **Weaknesses**: Ghost orbs may indicate its presence. The Mimics Ghost orbs **`DO NOT`** move with The Mimic they will work the same way as normal ghost orbs and simply stay in the ghost room. This means you can possibly get 4 evidence from this ghost because of their Ghost Orb ability.
 
 ## Moroi 👻
