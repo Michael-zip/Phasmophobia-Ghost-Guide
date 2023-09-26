@@ -85,7 +85,7 @@
 
 ### Hunting
 - **Speed**: Normal (`1.6 m/s`)
-- **Target Selection**: As soon as the house door is unlocked, the Banshee selects a single player as its primary target. This target remains fixed unless the player either dies or leaves the game. If the chosen target steps outside the house, the Banshee will temporarily switch its focus to another player until the initial target re-enters the house.
+- **Target Selection**: As soon as the house door is unlocked, the Banshee selects a single player as its primary target. This target remains fixed unless the player either dies or leaves the game. If the chosen target isnt in line of sight, the Banshee will temporarily switch its focus to another player until the initial target re-enters the house.
 - **Sanity**: Hunts triggered by the sanity level of the chosen target, starting at 50% or lower.
 
 ### Strengths and Weaknesses
